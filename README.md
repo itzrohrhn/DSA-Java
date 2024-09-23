@@ -1,7 +1,7 @@
 # DSA-Java
 Here, you'll get all the Data Structure Implementations with full code and easy explanations. <br>
 The whole code is going to be written in Java language only. <br>
-<h1>Conrents</h1>
+<h1>Contents</h1>
 <ul>
   <li>
     Single Linked list
