@@ -1,6 +1,7 @@
 # DSA-Java
 Here, you'll get all the Data Structure Implementations with full code and easy explanations. <br>
 The whole code is going to be written in Java language only. <br>
+
 <h1>Contents</h1>
 <ul>
   <li>
@@ -16,8 +17,15 @@ The whole code is going to be written in Java language only. <br>
           <li> Insertion at the End of the List </li>
         </ul>
       </li>
-      <li> Deletion in LinkedList </li>
+      <li> 
+        Deletion in LinkedList 
+        <ul>
+          <li> Deletion from the Start of the List </li>
+          <li> Deletion from the End of the List </li>
+        </ul>
+      </li>
     </ul>
   </li>
 </ul>
+
 <h2>All rights reserved © Rohh the Dev.</h2>
