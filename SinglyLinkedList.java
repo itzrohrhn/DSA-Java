@@ -1,12 +1,17 @@
 package rohh;
 
 public class SinglyLinkedList {
+    private int llSize;
+    SinglyLinkedList(){
+        this.llSize = 0;
+    }
     class Node{
         int data;
         Node next;
         Node(int data){
             this.data = data;
             this.next = null;
+            llSize++;
         }
     }
     Node head;
@@ -53,6 +58,7 @@ public class SinglyLinkedList {
             System.out.println("LL is Empty >< ");
             return;
         }
+        llSize--;
         head = head.next;
     }
 
@@ -61,6 +67,7 @@ public class SinglyLinkedList {
             System.out.println("LL is Empty ><");
             return;
         }
+        llSize--;
         if(head.next ==null){
             head = null;
             return;
@@ -70,6 +77,10 @@ public class SinglyLinkedList {
             temp = temp.next;
         }
         temp.next = null;
+    }
+
+    public int getllSize(){
+        return llSize;
     }
 
     public static void main(String[] args) {
@@ -82,5 +93,8 @@ public class SinglyLinkedList {
         ll.deleteBegin();
         ll.deleteEnd();
         ll.printLL();
+        System.out.println("LL size:"+ll.getllSize());
+        ll.insertEnd(100);
+        System.out.println("LL size:"+ll.getllSize());
     }
 }
