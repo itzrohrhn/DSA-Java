@@ -48,6 +48,26 @@ public class SinglyLinkedList {
         tempNode.next = newNode;
     }
 
+    public void deleteBegin(){
+        if(head == null){
+            System.out.println("LL is Empty >< ");
+            return;
+        }
+        head = head.next;
+    }
+
+    public void deleteEnd(){
+        if(head == null){
+            System.out.println("LL is Empty ><");
+            return;
+        }
+        Node temp = head;
+        while(temp.next.next!=null){
+            temp = temp.next;
+        }
+        temp.next = null;
+    }
+
     public static void main(String[] args) {
         SinglyLinkedList ll = new SinglyLinkedList();
         ll.insertBegin(89);
@@ -55,6 +75,8 @@ public class SinglyLinkedList {
         ll.insertEnd(56);
         ll.insertEnd(78);
         ll.insertBegin(222);
+        ll.deleteBegin();
+        ll.deleteEnd();
         ll.printLL();
     }
 }
