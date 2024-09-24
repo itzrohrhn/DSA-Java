@@ -61,6 +61,10 @@ public class SinglyLinkedList {
             System.out.println("LL is Empty ><");
             return;
         }
+        if(head.next ==null){
+            head = null;
+            return;
+        }
         Node temp = head;
         while(temp.next.next!=null){
             temp = temp.next;
