@@ -4,12 +4,18 @@ The whole code is going to be written in Java language only. <br>
 <h1>Contents</h1>
 <ul>
   <li>
-    Single Linked list
+    Singly Linked list
     <ul>
       <li> Creation of Node </li>
       <li> Printing a LinkedList</li>
       <li> Traverse </li>
-      <li> Insertion in LinkedList </li>
+      <li> 
+        Insertion in LinkedList 
+        <ul>
+          <li> Insertion at the Start of the List </li>
+          <li> Insertion at the End of the List </li>
+        </ul>
+      </li>
       <li> Deletion in LinkedList </li>
     </ul>
   </li>
