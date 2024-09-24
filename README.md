@@ -24,6 +24,7 @@ The whole code is going to be written in Java language only. <br>
           <li> Deletion from the End of the List </li>
         </ul>
       </li>
+      <li> To get the Size of the Linked List </li>
     </ul>
   </li>
 </ul>
