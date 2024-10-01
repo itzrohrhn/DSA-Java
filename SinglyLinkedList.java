@@ -1,5 +1,4 @@
 package rohh;
-
 public class SinglyLinkedList {
     private int llSize;
     SinglyLinkedList(){
@@ -15,8 +14,8 @@ public class SinglyLinkedList {
         }
     }
     Node head;
-
-
+    
+    //method to print the linkedlist
     public void printLL(){
         if(head == null){
             System.out.println("LL is Empty");
@@ -30,6 +29,7 @@ public class SinglyLinkedList {
         System.out.println("null");
     }
 
+    //method to insert at the beginning of the linkedlist
     public void insertBegin(int data){
         Node newNode = new Node(data);
         if(head==null){
@@ -40,6 +40,7 @@ public class SinglyLinkedList {
         head = newNode;
     }
 
+    //method to insert at the end of the linkedlist
     public void insertEnd(int data){
         Node newNode = new Node(data);
         if(head == null){
